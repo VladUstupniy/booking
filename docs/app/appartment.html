@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница номера</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./libs/fancybox/jquery.fancybox.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="header-bg">
+    <div class="header-bg-two">
+        <!-- wrapper -->
+        <div class="wrapper">
+            <header class="header">
+                <h1 class="header__title">Онлайн Букинг</h1>
+                <h2 class="header_subtitle">Дома и апартаменты города Сочи</h2>
+            </header>
+
+            <div class="admin-button-wapper">
+                <a href="#" class="admin-button">
+                    <img class="admin-button__icon" src="./img/icons/icon-locked-padlock.svg" alt="Icon Lock">
+                    Админ панель
+                </a>
+            </div>
+
+            <main class="content-wrapper content-wrapper--rounded content-wrapper--shadow">
+                <!-- Single-wrapper -->
+                <div class="single-wrapper">
+                    <!-- Single -->
+                    <div class="single">
+                        <div class="single__info">Дом целиком</div>
+                        <h1 class="single__title">Резиденция с видом на море</h1>
+                        <div class="single-tag-wrapper">
+                            <div class="single__tag">4 гостя</div>
+                            <div class="single__tag">2 спальни</div>
+                            <div class="single__tag">2 кровати</div>
+                            <div class="single__tag">1 ванная</div>
+                        </div>
+                        <div class="single__price">4 202 руб. <span>за сутки</span></div>
+                        <div class="single-button-wrapper">
+                            <a href="index.html" class="button" id="btn-open-form">Забронировать</a>
+                        </div>
+                        <div class="form-wrapper hidden">
+                            <form action="" class="form">
+                                <div class="form__title">Бронировать размещение</div>
+                                <input class="form__input" type="text" placeholder="Фамилия Имя" required>
+                                <input class="form__input" type="email" placeholder="Email" required>
+                                <input class="form__input phone-mask" type="text" placeholder="Телефон" required>
+                                <input class="button" type="submit" value="Забронировать">
+                            </form>
+                        </div>
+                        <div class="single__description">
+                            <p>Место для тех, кто устал от городской среды: уединенное, комфортабильное жилье для двоих.</p>
+                            <p>Апартаменты 70 кв. м. занимают верхний этаж, имеют свою парковку, отдельный вход и большую террасу.</p>
+                            <p>Высокий комфорт: кондиционер, оснащенная кухня, хорошая, большая и удобная кровать, просторная душевая комната, подогреваемые тёплые полы, водоподготовка и многое другое.</p>
+                        </div>
+                    </div>
+                    <!-- Single -->
+                    <!-- Gallery -->
+                    <div class="gallery">
+                        <div class="gallery__big">
+                            <a data-fancybox="gallery" href="img/big/big-1.webp">
+                                <img src="./img/mini/mini-1.jpg" alt="Фото номера">
+                            </a>
+                        </div>
+                        <div class="gallery-mini-wrapper">
+                            <div class="gallery__mini">
+                                <a data-fancybox="gallery" href="img/big/big-2.webp">
+                                    <img src="./img/mini/mini-2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__mini">
+                                <a data-fancybox="gallery" href="img/big/big-3.webp">
+                                    <img src="./img/mini/mini-3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="gallery__mini">
+                                <a data-fancybox="gallery" href="img/big/big-4.webp">
+                                    <img src="./img/mini/mini-4.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // Gallery -->
+                </div>
+                <!-- // Single-wrapper -->
+            </main>
+
+            <!-- Related -->
+            <aside class="related content-wrapper">
+                <div class="container-fluid">
+                    <h2 class="related__ittle">Похожие размещения</h2>
+                    <div class="row">
+                        <!-- Карточка аппартамента -->
+                        <div class="col-md-4">
+                            <div class="appartment-card">
+                                <a href="appartment.html" class="appartment-card-link">
+                                    <div class="appartment-card__img">
+                                        <img src="./img/preview/preview-4.jpg" alt="">
+                                    </div>
+                                    <div class="appartment-card__details">Дом целиком • 2 кровати • 3 гостя</div>
+                                    <div class="appartment-card__title">Квартира-студия у моря</div>
+                                    <div class="appartment-card__price">4 202 руб. за сутки</div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- // Карточка аппартамента -->
+
+                        <!-- Карточка аппартамента -->
+                        <div class="col-md-4">
+                            <div class="appartment-card">
+                                <a href="appartment.html" class="appartment-card-link">
+                                    <div class="appartment-card__img">
+                                        <img src="./img/preview/preview-5.jpg" alt="">
+                                    </div>
+                                    <div class="appartment-card__details">Квартира • 2 кровати • 4 гостя</div>
+                                    <div class="appartment-card__title">Уютная и тихая квартира</div>
+                                    <div class="appartment-card__price">1 300 руб. за сутки</div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- // Карточка аппартамента -->
+
+                        <!-- Карточка аппартамента -->
+                        <div class="col-md-4">
+                            <div class="appartment-card">
+                                <a href="appartment.html" class="appartment-card-link">
+                                    <div class="appartment-card__img">
+                                        <img src="./img/preview/preview-6.jpg" alt="">
+                                    </div>
+                                    <div class="appartment-card__details">Дом целиком • 2 кровати • 4 гостя</div>
+                                    <div class="appartment-card__title">Аппартаменты в центре Хосты</div>
+                                    <div class="appartment-card__price">4 202 руб. за сутки</div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- // Карточка аппартамента -->
+                    </div>
+                </div>
+            </aside>
+            <!-- Related -->
+        </div>
+        <!-- // wrapper -->
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__copyright">
+                    © Учебный проект Букинг, свёрстан с помощью gulp-сборки. Выполнил 
+                    <a href="https://vk.com/id134660750" target="_blank">Уступный Владислав</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./libs/jquery-3.6.0.min.js"></script>
+    <script src="./libs/masknumber/jquery.maskedinput.min.js"></script>
+    <script src="./libs/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
